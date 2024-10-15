@@ -7,25 +7,25 @@ import { Button } from "./componentsStyled/Button.styled";
 
 export const App = () => {
   return <Wrapper>
-    <Card key={1}>
+    <Card>
       <img src={image} alt={image} />
       <h2>Headline</h2>
       <p>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</p>
       <Button>See more</Button> <Button  color={'red'}  $isFilling={true} >Save</Button>
       
     </Card>
-    <Card key={2}>
+    <Card>
       <img src={image} alt={image} />
       <h2>Headline</h2>
       <p>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</p>
-      <Button>See more</Button> <Button /* color={'red'} */ $isFilling={true} >Save</Button>
+      <Button>See more</Button> <Button  color={'orange'} $isFilling={true} >Save</Button>
       
     </Card>
-    <Card key={3}>
+    <Card>
       <img src={image} alt={image} />
       <h2>Headline</h2>
       <p>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</p>
-      <Button>See more</Button> <Button  /* color={'red'} */ $isFilling={true} >Save</Button>
+      <Button>See more</Button> <Button   color={'green'}  $isFilling={true} >Save</Button>
       
     </Card>
 

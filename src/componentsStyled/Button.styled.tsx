@@ -7,14 +7,17 @@ type propsButtonType = {
 };
 
 export const Button = styled.button<propsButtonType>`
+font-family: 'Inter', "Helvetica Neue", Helvetica, sans-serif;
   /* transition: 0.1s all ease-in; */
-  border-radius: 8px;
-  line-height: 3;
-  padding: 0 2.45em;
+  border-radius: 5px;
+  line-height: 2.6;
+  padding: 0 1.81em;
   font-size: 10px;
   color: ${(props) => props.color || theme.colors.cardsColors.bthColors.color};
   background: ${theme.colors.cardsColors.bthColors.mainColor};
-  letter-spacing: 1.2px;
+display:inline-flex;
+align-items:center; 
+justify-content:center; 
   font-weight: 700;
   border: 2px solid;
 
